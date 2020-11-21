@@ -1,0 +1,272 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.option-bar
+{
+    background: rgb(201,255,229);
+    text-align: center ;
+}
+.option-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: goldenrod;
+}
+.option-bar ul li
+{
+ width: 130px;
+ margin: 3px;
+ padding: 4px;   
+}
+.option-bar ul li a
+{
+    text-decoration: none;
+    color: goldenrod;
+}
+.option-bar ul li:hover
+{
+    background:rgb(141, 195, 170);
+    border-radius: 3px;
+}
+.option-bar .fa
+{
+    margin-right: 3px;
+
+}
+.sub-menu-about
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-about
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-about ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-about ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-about ul li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-about ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+.sub-menu-Academics
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-Academics
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-Academics ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-Academics ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-Academics li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-Academics ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+.sub-menu-Infastructure
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-Infastructure
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-Infastructure ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-Infastructure ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-Infastructure li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-Infastructure ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+
+.sub-menu-Examination
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-Examination
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-Examination ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-Examination ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-Examination li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-Examination ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+
+.sub-menu-Campus
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-Campus
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-Campus ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-Campus ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-Campus li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-Campus ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+.sub-menu-ACA
+{
+    display: none;
+}
+.hover-m:hover .sub-menu-ACA
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background:  rgb(201,255,229);
+}
+.collage-description
+{
+    height: 18%;
+    width: 100%;
+    background-color: sandybrown;
+    padding: 6px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin-right: 3px;
+}
+.sub-menu-Training
+{
+    display: none;
+}
+.option-bar ul li:hover .sub-menu-Training
+
+{
+    display: block;
+    position: absolute;
+    background: rgb(201,255,229);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.option-bar ul li:hover .sub-menu-Training
+ul
+{
+    display: block;
+    margin: 10px;
+}
+.option-bar ul li:hover .sub-menu-Training ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted goldenrod;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.option-bar ul li:hover .sub-menu-Training
+li:last-child
+{
+    border-bottom: none;
+}
+.option-bar ul li:hover .sub-menu-Training
+ul li a:hover
+{
+    color: rgb(45, 66, 161);
+}
+
